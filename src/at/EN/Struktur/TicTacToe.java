@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package at.EN.Struktur;
 
+import java.util.Scanner;
 public class TicTacToe {
     private static char[][] board = new char[3][3];
     private static char currentPlayer = 'X';

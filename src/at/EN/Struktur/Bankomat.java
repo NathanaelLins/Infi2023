@@ -1,3 +1,5 @@
+package at.EN.Struktur;
+
 import java.util.Scanner;
 
 public class Bankomat {
