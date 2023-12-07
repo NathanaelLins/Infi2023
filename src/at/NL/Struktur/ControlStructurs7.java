@@ -1,4 +1,4 @@
-package at.EN.Struktur;
+package at.NL.Struktur;
 
 public class ControlStructurs7 {
     public static void main(String[] args){

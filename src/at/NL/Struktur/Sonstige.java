@@ -1,4 +1,4 @@
-package at.EN.Struktur;
+package at.NL.Struktur;
 
 public class Sonstige {
 
