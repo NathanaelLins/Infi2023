@@ -20,16 +20,15 @@ public class TestIt {
             int ni = r.nextInt(namenListe.length - 1 -0)+0;
             int fi = r.nextInt(farbeListe.length - 1 -0)+0;
             int ai = r.nextInt(25 + 1 -0)+0;
-
-            // mKatzenListe.add(new Katze(charListe[0],"nackt",5,"rosa","Nackibutz"));
+            mKatzenListe.add(new Katze(charListe[ci],oberListe[oi],ai,farbeListe[fi],namenListe[ni]));
 
         }
-        //mKatzenListe.add(katze);
-        // katze.setAlter(1);
-       // katze.setCharacter("bösartig");
-       // katze.setFarbe("karriert");
-       // katze.setOberflaechenbeschaffenheit("flauschig");
-       // katze.setName("Mitzi");
+        mKatzenListe.add(katze);
+        katze.setAlter(1);
+       katze.setCharacter("bösartig");
+       katze.setFarbe("karriert");
+       katze.setOberflaechenbeschaffenheit("flauschig");
+       katze.setName("Mitzi");
 
         Katze katze2 = new Katze("nette","nackt",5,"rosa","Nackibutz");
         mKatzenListe.add(katze2);
