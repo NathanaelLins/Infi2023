@@ -40,6 +40,17 @@ public class Haus {
     }
 
     public void getInfo() {
-        System.out.println("Adresse: "this.adresse + "\nFlaeche: "this.flaeche + "\n Anzahl Zimmer: "this.anzahlZimmer);
+        System.out.println("Adresse: " + this.adresse + "\nFlaeche: " + this.flaeche + "\nAnzahl Zimmer: " + this.anzahlZimmer);
     }
+
+    public void addKatze(Katze katze) {
+        katzenListe.add(katze);
+    }
+
+    public void getKatzenImHaus(){
+        for (Katze k : katzenListe){
+            System.out.println(k.getInfo());
+        }
+    }
+
 }
