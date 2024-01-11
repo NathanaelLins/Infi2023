@@ -47,9 +47,9 @@ public class Haus {
         katzenListe.add(katze);
     }
 
-    public void getKatzenImHaus(){
+    public void getKatzeImHaus(){
         for (Katze k : katzenListe){
-            System.out.println(k.getInfo());
+            k.getInfo();
         }
     }
 
