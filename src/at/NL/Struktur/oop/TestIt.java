@@ -36,7 +36,7 @@ public class TestIt {
 
         int katzenzaehler = 1;
 
-        Haus haus = new Haus (350, "Buxdehude 4, 388732 Hamburg", 8);
+        Haus haus = new Haus (350, "Buxdehude 4, 388732 Hamburg", 8, 5);
         haus.getInfo();
         haus.addKatze (katze2);
         haus.addKatze(katze);
