@@ -34,6 +34,11 @@ public class TestIt {
         mKatzenListe.add(katze2);
         // System.out.println("Meine Katze "+katze.getName() +" ist "+ katze.getAlter() + " alt!");
 
+        int katzenzaehler = 1;
+
+        Haus haus = new Haus (350, "Buxdehude 4, 388732 Hamburg", 8);
+        haus.getInfo();
+
         for(Katze k: mKatzenListe){
             System.out.println("Meine Katze "+k.getName() +" ist "+ k.getAlter() + " alt," + k.getCharacter() + ", "+k.getName() + ", " + k.getOberflaechenbeschaffenheit());
         }
