@@ -16,7 +16,7 @@ public class Testit2 {
         String[] farbeListe ={"weiß","schwarz","beides","alles","rainbow","hässlich"};
 
 
-        for (int i=1; i<=100; i++){
+        for (int i=1; i<=3; i++){
             int ci = r.nextInt(modelListe.length - 1 -0)+0;
             int oi = r.nextInt(artListe.length - 1 -0)+0;
             int ni = r.nextInt(namenListe.length - 1 -0)+0;
