@@ -54,7 +54,7 @@ public class Luft {
     }
 
     public void addDrohne(Drohne drohne) {
-        if (drohneListe.size()  > (this.maxdrohneinluft-1)){
+        if (drohneListe.size()  > (this.maxdrohneinluft-2)){
             System.out.println("Der/die Pilot/in will nicht mehr Drohnen als " + this.maxdrohneinluft + " in der Luft!!");
         } else {
             drohneListe.add(drohne);
