@@ -1,4 +1,4 @@
-package at.NL.Struktur.oop;
+package at.NL.Struktur.oop.Katze;
 
 public class Katze {
     private String character;

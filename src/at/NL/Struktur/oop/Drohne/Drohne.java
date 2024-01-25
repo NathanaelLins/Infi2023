@@ -1,4 +1,4 @@
-package oop2;
+package at.NL.Struktur.oop.Drohne;
 
 public class Drohne {
 
@@ -11,7 +11,7 @@ public class Drohne {
     public Drohne() {
     }
 
-    public Katze(String model, String art, int alter, String farbe, String name) {
+    public Drohne(String model, String art, int alter, String farbe, String name) {
         this.model = model;
         this.art = art;
         this.alter = alter;
@@ -66,6 +66,4 @@ public class Drohne {
                 ", Farbe: " + this.farbe +
                 ", name: " + this.name);
     }
-}
-
 }

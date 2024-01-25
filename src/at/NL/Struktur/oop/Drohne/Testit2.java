@@ -1,4 +1,4 @@
-package oop2;
+package at.NL.Struktur.oop.Drohne;
 
 
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ public class Testit2 {
 
     public static void main(String[] args){
         Random r = new Random();
-        ArrayList<Drohne> mKatzenListe = new ArrayList();
+        ArrayList<Drohne> mDrohneListe = new ArrayList();
         Drohne drohne = new Drohne();
         String[] modelListe ={"fpv","dji"};
         String[] artListe ={"weich","hart","nass","hässlich","Elias Frisur","wie Elias hässlich"};
@@ -36,19 +36,17 @@ public class Testit2 {
         mDrohneListe.add(drohne2);
         // System.out.println("Meine Katze "+katze.getName() +" ist "+ katze.getAlter() + " alt!");
 
-        int katzenzaehler = 1;
+        int drohnenzaehler = 1;
 
         Luft luft = new Luft (350, "Buxdehude 4, 388732 Hamburg", 8, 5);
         luft.getInfo();
 
 
-        for(Drohne k: mKatzenListe){
-            System.out.println("Meine Katze "+k.getName() +" ist "+ k.getAlter() + " alt," + k.getModel() + ", "+k.getName() + ", " + k.getArt());
+        for(Drohne k: mDrohneListe){
+            System.out.println("Meine Drohne "+k.getName() +" ist "+ k.getAlter() + " alt," + k.getModel() + ", "+k.getName() + ", " + k.getArt());
             luft.addDrohne(k);
         }
-        luft.getDrohneInLuft();
+        luft.getdrohneinluft();
     }
-
-}
 
 }

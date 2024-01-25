@@ -1,4 +1,4 @@
-package at.NL.Struktur.oop;
+package at.NL.Struktur.oop.Katze;
 
 import java.util.ArrayList;
 import java.util.Random;

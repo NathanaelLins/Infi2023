@@ -1,6 +1,4 @@
-package oop2;
-
-import at.NL.Struktur.oop.Katze;
+package at.NL.Struktur.oop.Drohne;
 
 import java.util.ArrayList;
 
@@ -11,7 +9,7 @@ public class Luft {
     private int maxdrohneinluft;
     private ArrayList<Drohne> drohneListe;
 
-    public Haus(int luftfeuchtigkeit, String adresse, int höhe, int maxdrohneinluft) {
+    public Luft(int luftfeuchtigkeit, String adresse, int höhe, int maxdrohneinluft) {
         this.luftfeuchtigkeit = luftfeuchtigkeit;
         this.adresse = adresse;
         this.höhe = höhe;
@@ -57,18 +55,18 @@ public class Luft {
 
     public void addDrohne(Drohne drohne) {
         if (drohneListe.size()  > (this.maxdrohneinluft-1)){
-            System.out.println("Der/die ChefIn will nicht mehr Katzen als" + this.maxdrohneinluft + " im Haus!!");
+            System.out.println("Der/die Pilot/in will nicht mehr Drohnen als " + this.maxdrohneinluft + " in der Luft!!");
         } else {
             drohneListe.add(drohne);
         }
     }
 
     public void getKatzeImHaus(){
-        for (drohne d : drohneListe){
+        for (Drohne d : drohneListe){
             d.getInfo();
         }
     }
 
-}
-
+    public void getdrohneinluft() {
+    }
 }
